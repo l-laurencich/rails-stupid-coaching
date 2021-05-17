@@ -10,7 +10,7 @@ class QuestionsController < ApplicationController
     elsif params[:question].include? '?'
       @answer = answers[1]
     else
-      @answer = answer[2]
+      @answer = answers[2]
     end
   end
 end
